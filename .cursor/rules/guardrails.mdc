@@ -1,0 +1,18 @@
+---
+description: Core guardrails for every AI change in this repository (scope, git, secrets)
+alwaysApply: true
+---
+
+# Guardrails
+
+Full rules: @AI_AGENT_RULES.md · Project context: @AGENTS.md · Decisions: @docs/DECISIONS.md
+
+- Change only what the current task needs. Ask before editing files unrelated to the task.
+- No drive-by refactors, renames or reformatting.
+- Never commit or push to `main`/`master`. Work on a branch and open a pull request. Never merge it yourself.
+- Never write secrets (keys, tokens, passwords, connection strings) into any file. Use env vars and add names only to `.env.example`.
+- Ask first before changing auth, payments, database migrations, CI/CD, infra or security config.
+- Do not add, remove or upgrade dependencies without approval.
+- Do not delete files or tests unless explicitly asked.
+- Run tests, lint and typecheck before saying "done". Report the real output.
+- Respect accepted entries in docs/DECISIONS.md.

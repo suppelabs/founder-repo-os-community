@@ -1,0 +1,34 @@
+{
+  "name": "founder-repo-check",
+  "version": "0.1.0",
+  "description": "Free AI coding guardrails (AGENTS.md, CLAUDE.md, Cursor rules, Copilot instructions, PR template) plus a zero-dependency CLI that scores your repo.",
+  "bin": {
+    "founder-repo-check": "bin/check.js"
+  },
+  "files": [
+    "bin/",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "AI_AGENT_RULES.md",
+    ".cursor/",
+    ".github/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node bin/check.js",
+    "test": "node test/check.test.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": ["agents.md", "claude.md", "cursor-rules", "copilot-instructions", "ai-coding", "vibe-coding", "guardrails", "pull-request-template", "claude-code", "codex"],
+  "homepage": "https://www.founderrepoos.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suppelabs/founder-repo-os-community.git"
+  },
+  "author": "SUPPE LABS",
+  "license": "MIT"
+}
