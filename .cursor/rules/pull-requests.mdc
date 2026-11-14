@@ -1,0 +1,14 @@
+---
+description: How to prepare commits and pull requests for AI-generated changes
+globs:
+alwaysApply: false
+---
+
+# Commits and pull requests
+
+- Branch names: `feat/…`, `fix/…`, `chore/…`, `docs/…`.
+- Commit messages: imperative, short, explain why.
+- One task per PR. Aim for under ~300 changed lines.
+- Fill in every section of @.github/pull_request_template.md, including "AI involvement" and "How it was tested".
+- List any file you changed that is not obviously part of the task, and explain why.
+- Open PRs as draft when anything is unverified.
